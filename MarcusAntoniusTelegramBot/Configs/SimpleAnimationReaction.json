@@ -1,0 +1,10 @@
+{
+	"SimpleAnimationReaction": {
+		"ReactionPattern": {
+			"MaxChanceTimeoutMinutes": 60,
+			"MaxReactionChance": 20,
+			"MinReactionChance": 0
+		},
+		"AnimationPath": "Animations"
+	}
+}

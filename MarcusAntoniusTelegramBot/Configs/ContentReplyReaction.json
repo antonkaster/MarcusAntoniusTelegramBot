@@ -1,0 +1,14 @@
+{
+	"ContentReplyReaction": {
+		"ReactionPattern": {
+			"MaxChanceTimeoutMinutes": 30,
+			"MaxReactionChance": 30,
+			"MinReactionChance": 2
+		},
+		"ReactionPhrases": [
+			"Давай я лучше расскажу тебе {name}",
+			"Лучше посмотри {name}",
+			"Не надо так, лучше зацени {name}"
+		]
+	}
+}

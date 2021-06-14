@@ -1,0 +1,45 @@
+{
+	"SpellCheckReaction": {
+		"ReactionPattern": {
+			"MaxChanceTimeoutMinutes": 5,
+			"MaxReactionChance": 90,
+			"MinReactionChance": 30
+		},
+		"SingleErrorPhrases": [
+			"Возможно, имелось ввиду {wrong_right}",
+			"Возможно, всё же {wrong_right}?",
+			"Может, всё же {wrong_right}?",
+			"Я всё понимаю, но может, всё же {wrong_right}?",
+			"Думаю, всё же {wrong_right}",
+			"Может быть {wrong_right}?",
+			"Думаю {wrong_right}",
+			"Ох уж эти ваши '{wrong}', пишите правильно: '{right}'!",
+			"Не '{wrong}', а '{right}'!"
+		],
+		"WrongCountBound": 4,
+		"LessThanWrongPhrases": [
+			"Я думаю всё же",
+			"Думаю",
+			"Целых {wrongCount_withWord_error}!",
+			"Я нашел аж {wrongCount_withWord_error}!",
+			"Я нашел целых {wrongCount_withWord_error}!",
+			"Вижу {wrongCount_withWord_error}",
+			"Вижу целых {wrongCount_withWord_error}!"
+		],
+		"MoreThanWrongPhrases": [
+			"Во имя Цезаря! Всего {wordsTotal_withWord_word} и целых {wrongCount_withWord_error}!",
+			"Во имя Цезаря! Написано {wordsTotal_withWord_word} и {wrongCount} неправильно!",
+			"О, боги! Всего {wordsTotal_withWord_word} и целых {wrongCount_withWord_error}!",
+			"О, боги! Я вижу {wordsTotal_withWord_word} и {wrongCount} неправильно!",
+			"О, боги! {wrongCount_withWord_error} в таком коротком тексте!",
+			"Всего {wordsTotal_withWord_word} и {wrongCount} неправильно!",
+			"Я вижу {wordsTotal_withWord_word} и из них {wrongCount} неправильно написано!",
+			"Всего {wordsTotal_withWord_word} и {wrongCount_withWord_error}!"
+		],
+		"WrongRightPhrases": [
+			"'{right}' вместо '{wrong}'",
+			"'{right}', а не '{wrong}'",
+			"не '{wrong}', а '{right}'"
+		]
+	}
+}

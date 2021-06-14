@@ -1,0 +1,9 @@
+{
+	"DiceReaction": {
+		"ReactionPattern": {
+			"MaxChanceTimeoutMinutes": 2,
+			"MaxReactionChance": 100,
+			"MinReactionChance": 0
+		}
+	}
+}

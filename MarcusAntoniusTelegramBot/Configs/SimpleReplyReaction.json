@@ -1,0 +1,15 @@
+{
+	"SimpleReplyReaction": {
+		"ReactionPattern": {
+			"MaxChanceTimeoutMinutes": 30,
+			"MaxReactionChance": 30,
+			"MinReactionChance": 2
+		},
+		"ReactionPhrases": [
+			"Ась?",
+			"И зачем пальцем тыкать?",
+			"??",
+			"Попрошу пальцами не тыкать"
+		]
+	}
+}
